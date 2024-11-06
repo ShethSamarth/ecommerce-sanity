@@ -395,6 +395,13 @@
         },
         "optional": true
       },
+      "validUntil": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
       "isActive": {
         "type": "objectAttribute",
         "value": {
