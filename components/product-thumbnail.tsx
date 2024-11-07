@@ -25,7 +25,7 @@ export const ProductThumbnail = ({ product }: ProductThumbnailProps) => {
           <Image
             fill
             src={urlFor(product.image).url()}
-            alt={product.image?.alt ? product.image.alt : product.name!}
+            alt={product.image.alt ?? product.name!}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-contain transition-transform duration-300 group-hover:scale-105"
           />
